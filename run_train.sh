@@ -1,0 +1,11 @@
+python train.py \
+    --devices 1 2 3 \
+    --log_dir ./exp/ \
+    --exp_name exp_name \
+    --input_channel 1 \
+    --output_channel 1 \
+    --data_dir example_data \
+    --data_info_csv example_data.csv \
+    --batch_size 9 \
+    --norm_mode standard \
+    --save_frq 100
